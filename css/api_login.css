@@ -1,0 +1,52 @@
+	main {
+			flex: 1 0 auto;
+			margin-top: 5%;
+		}
+		body {
+			background: linear-gradient(90deg, #757575 0%, #bdbdbd 35%, #e0e0e0  100%);
+		  	display: flex;
+		  	min-height: 100vh;
+		  	flex-direction: column;
+		}
+		.input-field label {
+			color: black;
+		}
+		.input-field input[type=text]:focus:not([readonly]) + label, .input-field input[type=email]:focus:not([readonly]) + label, textarea.materialize-textarea:focus:not([readonly]) + label, .input-field input[type=password]:focus:not([readonly]) + label  {
+	     color: #b71c1c;
+	   }
+			/* label underline focus color */
+	   .input-field input[type=email]:focus:not([readonly]), .input-field input[type=text]:focus:not([readonly]), .input-field input[type=password]:focus:not([readonly]) {
+	     border-bottom: 1px solid #b71c1c;
+	     box-shadow: 0 1px 0 0 #b71c1c;
+	   }
+	   /* icon prefix focus color */
+	   .input-field .prefix.active {
+	     color: #b71c1c;
+	   }
+	   #login {
+	   	width: 400px;
+       	height: 400px;
+       	color: black;
+       	background: #ffffff;
+       	padding: 15px;
+       	box-sizing: border-box;
+       	border-radius: 15px;
+      	}
+	   .material-icons.prefix {
+	   	color: black;
+	   }
+	   button[type=submit] {
+	   	width: 100%;
+	   }
+	   img {
+	   	padding-bottom: 5px;
+	   }
+	    #registrar {
+	   	width: 400px;
+       	height: 530px;
+       	color: black;
+       	background: #ffffff;
+       	padding: 15px;
+       	box-sizing: border-box;
+       	border-radius: 15px;
+      	}
